@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Insert title here</title>
+  </head>
+  <body>
+<div id="duplicateMessage" style="color: red;"></div>
+Email:
+<input type="text" name="email" id="email">
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script th:src="@{/js/check_email.js}"></script>
+  </body>
+</html>
